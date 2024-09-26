@@ -5,21 +5,11 @@ String.prototype.reverse = function() {
   return Array.from(this).reverse().join("");
 }
 
-// blank()メソッドを追加してすべてのStringで使えるようにする
-String.prototype.blank = function() {
-  return !!this.match(/^\s+$/);
-}
-
-// 配列の末尾にある要素を返す
-Array.prototype.last = function() {
-  return this.slice(-1)[0];
-}
-
 // Phraseオブジェクトを定義する
 function Phrase(content) {
   this.content = content;
 
-  // パリンドロームのテスト用に変換した訳文を返す
+  // パリンドロームのテスト用に変換したcontentを返す
   this.processedContent = function processedContent() {
     return this.letters().toLowerCase();
   }
