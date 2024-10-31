@@ -1,6 +1,6 @@
 {
   "name": "zetta-palindrome",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Palindrome detector",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "zetta3141",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/funk-frog/palindrome/issues"
+    "url": "https://github.com/zetta3141/palindrome/issues"
   },
-  "homepage": "https://github.com/funk-frog/palindrome#readme"
+  "homepage": "https://github.com/zetta3141/palindrome#readme"
 }
